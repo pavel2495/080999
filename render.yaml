@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: xcom-analogs
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: tar -xzf xcom-release.tar.gz
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: 22.19.0
