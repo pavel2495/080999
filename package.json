@@ -6,6 +6,7 @@
     "node": ">=22.19.0"
   },
   "scripts": {
+    "build": "tar -xzf xcom-release.tar.gz standalone-dist",
     "start": "node standalone-dist/server/index.mjs"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "runtime": "node_web",
+  "buildCommand": "npm run build",
+  "startCommand": "npm start",
+  "port": 10000,
+  "nodeVersion": "22"
+}
